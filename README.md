@@ -9,13 +9,16 @@ sedan med nästa position i listan och fortsätter tills den når listans slut, 
 vägen att ha "plockat med sig" det allra största elementet hela vägen till slutet. Därefter
 börjar den om från början för att bubbla upp det näst största elementet, osv.
 
-Din uppgift är att implementera bubbelsortering för en lista bestående av objekt. Objekten
+Din uppgift är att i Javascript implementera bubbelsortering för en lista bestående av objekt. Objekten
 ska sorteras alfabetiskt med avseende på egenskapen `name`, som finns på alla objekt
 i listan. Implementera sorteringen som en funktion med namnet `bubbleSortByName` som ska
 kunna anropas på detta sätt:
 
 ```
 bubbleSortByName([ { name: 'Lisa' }, { name: 'Pella' }, { name: 'Anna' }, { name: 'Kalle' } ])
+```
+Resultat:
+```
 > [ { name: 'Anna' }, { name: 'Kalle' }, { name: 'Lisa' }, { name: 'Pelle' } ]
 ```
 
