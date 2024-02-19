@@ -19,7 +19,7 @@ bubbleSortByName([ { name: 'Lisa' }, { name: 'Pella' }, { name: 'Anna' }, { name
 ```
 Resultat:
 ```
-> [ { name: 'Anna' }, { name: 'Kalle' }, { name: 'Lisa' }, { name: 'Pelle' } ]
+[ { name: 'Anna' }, { name: 'Kalle' }, { name: 'Lisa' }, { name: 'Pelle' } ]
 ```
 
 ## Uppgift 2: Uppdatera inventarielista
