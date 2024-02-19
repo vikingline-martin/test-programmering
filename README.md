@@ -36,13 +36,12 @@ och `quantity` enligt nedan:
 ]
 ```
 Din uppgift är att skriva en funktion `updateInventory(current, incoming)` som tar denna
-inventarielista och uppdaterar den med en leverens av nya objekt. För inkommande objekt
+inventarielista och uppdaterar den med en leverans av nya objekt. För inkommande objekt
 med `name` som matchar ett objekt i inventarielistan uppdateras `quantity` för objektet
 i inventarielistan till summan av existerande och inkommande. Inkommande objekt med `name`
 som inte matchar ett objekt i inventarielistan läggs direkt till i inventarielistan.
 Funktionen ska till sist returnera den uppdaterade inventarielistan, sorterad på värdet
-på varje objekts egenskap `name`. Använd funktionen `bubbleSortByName` från föregående
-uppgift för att sortera objekten.
+på varje objekts egenskap `name`. Om du klarat uppgift 1 använd funktionen `bubbleSortByName` för att sortera objekten. Annars ifall du inte har funktionen så kan du på godtyckligt sätt sortera så det är sorterat per namn.
 
 ### Exempeldata och anrop
 ```
